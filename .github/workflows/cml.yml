@@ -13,3 +13,4 @@ jobs:
           # Your ML workflow goes here
           python -m pip install -r requirements.txt
           dvc repro 
+          dvc push
