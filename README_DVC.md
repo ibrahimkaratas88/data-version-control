@@ -293,7 +293,7 @@ Now for the best part!
 For training, you’ll use a random forest classifier, which is a different model that can be used for classification. It’s more complex than the SGDClassifier and could potentially yield better results. Start by creating and checking out a new branch and calling it random_forest:
 
 ```bash
-git checkout -b "random_forest"
+git checkout -b "dene_random_forest"
 ```
 
 The power of pipelines is the ability to reproduce them with minimal hassle whenever you change anything. Modify your train.py to use a RandomForestClassifier instead of the SGDClassifier:
